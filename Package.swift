@@ -3,6 +3,6 @@ import PackageDescription
 let package = Package(
     name: "app",
     dependencies: [
-        .Package(url: "https://github.com/glock45/swifter.git", versions: Version(1,0,0)..<Version(2,0,0)),
+        .Package(url: "https://github.com/glock45/swifter.git", versions: Version(1,0,8)..<Version(1,0,9)),
     ]
 )
